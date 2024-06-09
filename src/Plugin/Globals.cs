@@ -100,7 +100,7 @@ namespace SharpTimer
         public int minGlobalPointsForRank = 1000;
         public bool displayChatTags = true;
         public bool displayScoreboardTags = true;
-        public string customVIPTag = "VIP";
+        public string customVIPTag = "";
         public string vipGifHost = "https://files.catbox.moe";
 
         public bool useTriggers = true;
