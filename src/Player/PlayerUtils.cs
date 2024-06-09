@@ -552,7 +552,7 @@ namespace SharpTimer
 
                 string stripedClanTag = RemovePlayerTags(player.Clan ?? "");
 
-                player.Clan = $"{stripedClanTag}{(playerTimers[player.Slot].IsVip ? $"[{customVIPTag}]" : "")}[{tag}]";
+                player.Clan = $"{stripedClanTag}{(playerTimers[player.Slot].IsVip ? $"{customVIPTag}" : "")}{tag}";
 
                 player.PlayerName = originalPlayerName + " ";
 
